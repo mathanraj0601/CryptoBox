@@ -1,6 +1,5 @@
 import Wallet from "./pages/Wallet/Wallet";
 import "./App.css";
-import ColorToggle from "./components/ColorToggle/ColorToggle";
 import NavBar from "./components/NavBar/NavBar";
 
 function App() {
