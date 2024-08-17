@@ -55,7 +55,7 @@
   --text-1000: #c7d1db;
   --text-1100: #dee4ea;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-1000: #f3f0ff;
@@ -82,7 +82,7 @@
     --text-1000: #c7d1db;
     --text-1100: #dee4ea;
   }
-}
+} */
 
 body {
   min-height: 100vh;

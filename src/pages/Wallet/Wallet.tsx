@@ -44,6 +44,7 @@ function Wallet() {
       </div>
       <div className="wallet-body">
         <WalletItem />
+        <WalletItem />
       </div>
     </div>
   );
