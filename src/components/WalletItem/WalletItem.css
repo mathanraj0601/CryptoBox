@@ -1,0 +1,31 @@
+.wallet-item {
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 10px;
+  color: var(--text-1000);
+  box-shadow: var(--text-100) 0px 1px 1px, var(--text-100) 0px 0px 1px 1px;
+}
+
+.wallet-item-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.wallet-item-header > h4 {
+  font-weight: 700;
+}
+
+.wallet-item-header > span {
+  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  font-size: clamp(0.5rem, 2vw + 0.2rem, 0.7rem);
+  border: 1px solid var(--primary-400);
+}
+
+.waller-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-top: 10px;
+}

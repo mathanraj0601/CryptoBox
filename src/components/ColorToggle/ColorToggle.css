@@ -1,0 +1,15 @@
+.color-toggle-btn {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.color-toggle-btn-icon {
+  color: var(--text-1000);
+}
+
+.color-toggle-btn-icon:hover {
+  color: var(--text-1100);
+  transform: scale(1.1);
+}
