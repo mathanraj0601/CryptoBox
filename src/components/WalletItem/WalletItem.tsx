@@ -2,10 +2,11 @@ import WalletKey from "../WalletKey/WalletKey";
 import WalletPharse from "../WalletPhrase/WalletPhrase";
 import "./WalletItem.css";
 
-interface WalletItemProps {
-  className?: string;
-}
-function WalletItem({ className }: WalletItemProps) {
+// interface WalletItemProps {
+//   className?: string;
+// }
+
+function WalletItem() {
   const wallets = [
     {
       id: 1,
