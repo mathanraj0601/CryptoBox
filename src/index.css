@@ -12,7 +12,7 @@
   --primary-800: #5e4db2;
   --primary-900: #352c63;
   --primary-1000: #2b273f;
-  --text-0-80: #ffffff80;
+  --text-0-80: rgba(255, 255, 255, 0.7);
 
   --text-0: #ffffff;
   --text-100: #f7f8f9;
@@ -40,7 +40,7 @@
   --primary-200: #352c63;
   --primary-100: #2b273f;
 
-  --text-0-80: #2c333a80;
+  --text-0-80: rgba(44, 51, 58, 0.6);
 
   --text-0: #161a1d;
   --text-100: #1d2125;

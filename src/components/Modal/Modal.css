@@ -1,0 +1,19 @@
+.modal {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  cursor: not-allowed;
+  align-items: center;
+  background-color: var(--text-0-80);
+  padding: 1rem;
+}
+
+.modal-children {
+  background-color: var(--text-0);
+  cursor: default;
+}
