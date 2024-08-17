@@ -1,7 +1,5 @@
-import { useState } from "react";
 import WalletItem from "../../components/WalletItem/WalletItem";
 import "./Wallet.css";
-import Modal from "../../components/Modal/Modal";
 
 function Wallet() {
   // const data = [
