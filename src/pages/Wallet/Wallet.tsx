@@ -45,8 +45,13 @@ function Wallet() {
         <a>Add Wallet</a>
       </div>
       <div className="wallet-body">
-        <WalletItem />
-        <WalletItem />
+        <div className="main-wallet">
+          <WalletItem />
+        </div>
+        <div className="other-wallet">
+          <WalletItem />
+          <WalletItem /> <WalletItem /> <WalletItem />
+        </div>
       </div>
     </div>
   );
