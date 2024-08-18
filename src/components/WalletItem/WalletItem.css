@@ -1,9 +1,9 @@
 .wallet-item {
   padding: 1rem;
-  border: 1px solid;
+  /* border: 1px solid ; */
   border-radius: 10px;
   color: var(--text-1000);
-  box-shadow: var(--text-100) 0px 1px 1px, var(--text-100) 0px 0px 1px 1px;
+  box-shadow: var(--primary-200) 0px 1px 1px, var(--primary-200) 0px 0px 1px 1px;
 }
 
 .wallet-item-header {
@@ -28,4 +28,11 @@
   flex-direction: column;
   gap: 0.8rem;
   padding-top: 10px;
+}
+
+.wallet-item:hover {
+  box-shadow: var(--primary-300) 0px 1px 1px, var(--primary-300) 0px 0px 1px 1px;
+
+  transform: scaleX(1.01);
+  transition: transform 0.2s ease-in-out;
 }

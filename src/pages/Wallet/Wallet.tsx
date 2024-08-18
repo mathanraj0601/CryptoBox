@@ -1,5 +1,7 @@
+import { useState } from "react";
 import WalletItem from "../../components/WalletItem/WalletItem";
 import "./Wallet.css";
+import Modal from "../../components/Modal/Modal";
 
 function Wallet() {
   // const data = [
@@ -43,7 +45,13 @@ function Wallet() {
         <a>Add Wallet</a>
       </div>
       <div className="wallet-body">
-        <WalletItem />
+        <div className="main-wallet">
+          <WalletItem />
+        </div>
+        <div className="other-wallet">
+          <WalletItem />
+          <WalletItem /> <WalletItem /> <WalletItem />
+        </div>
       </div>
     </div>
   );
