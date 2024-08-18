@@ -1,0 +1,29 @@
+name: deploy-crypto-box
+
+on:
+  push:
+    branches:
+      - develop
+
+
+# List of all jobs
+jobs:
+  # Job name Build
+   build:
+   # run on ubuntu machine machine 
+     runs-on: ubuntu-latest
+     
+     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+      - run: npm run install
+
+      - name: Run Build
+      - run: npm run build
+      
+      - name: deploy to github pages
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist 
