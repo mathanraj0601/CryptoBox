@@ -1,7 +1,39 @@
 import WalletItem from "../../components/WalletItem/WalletItem";
 import "./Wallet.css";
+// import { migrateDb } from "../../Data/Db";
+// import { CheckIndexedDb } from "../../Data/IndexedDb";
+// import {
+//   AddAccount,
+//   getByAccountId,
+//   getNextAccountId,
+//   updateAccountName,
+// } from "../../Data/Account";
+// import { getAllKeyByAccountId } from "../../Data/Keys";
 
 function Wallet() {
+  // migrateDb();
+  // CheckIndexedDb();
+
+  // const account = {
+  //   acc: {
+  //     name: "account 1",
+  //   },
+  //   keys: [
+  //     { privateKey: "1nsdwsd", publicKey: "sdjfaej" },
+  //     { privateKey: "1nsdwsd", publicKey: "sdjfaej" },
+  //     { privateKey: "1nsdwsd", publicKey: "sdjfaej" },
+  //   ],
+  //   network: {
+  //     name: "main",
+  //   },
+  // };
+  // console.log(
+  //   getByAccountId(20),
+  //   getAllKeyByAccountId(20),
+  //   getNextAccountId(),
+  //   updateAccountName(92, 92)
+  // );
+  // AddAccount(account);
   // const data = [
   //   { id: 1, name: "Abcd", isEnterable: false },
   //   { id: 2, name: "asdasd", isEnterable: false },
