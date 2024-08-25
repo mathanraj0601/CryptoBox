@@ -35,7 +35,7 @@ function WalletItem() {
     // },
   ];
 
-  const handleChecked = (e) => {
+  const handleChecked = (e: boolean) => {
     console.log(e, "checked");
   };
 
