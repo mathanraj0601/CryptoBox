@@ -19,7 +19,7 @@
 
 .wallet-key-body {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 0.5rem 1rem;
   gap: 0.4rem;

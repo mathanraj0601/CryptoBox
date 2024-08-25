@@ -5,6 +5,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import "./NavBar.css";
 import useMobile from "../../Utility/Hooks/setMobile";
 import logo from "../../assets/logo.png";
+import Profile from "../Profile/Profile";
 
 function NavBar() {
   const menus = [
@@ -70,6 +71,7 @@ function NavBar() {
         </ul>
         <div className="nav-bar-options">
           <ColorToggle className="nav-bar-option" />
+          <Profile name={"Mathan raj"} />
           {isMobile && (
             <button onClick={toggleNavOpen}>
               {isNavOpen ? (

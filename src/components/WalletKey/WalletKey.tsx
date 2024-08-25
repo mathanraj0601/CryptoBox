@@ -23,7 +23,7 @@ function WalletKey({ title, value, isProtected, isCopyable }: WalletKeyProps) {
           <p>{isShow ? value : text}</p>
         </div>
         <div className="wallet-key-options">
-          {isCopyable && (
+          {isCopyable && isShow && (
             <div className="wallet-key-option">
               <CopyAllIcon />
             </div>

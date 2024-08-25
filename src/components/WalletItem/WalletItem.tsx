@@ -1,3 +1,4 @@
+import Conditions from "../Conditions/Conditions";
 import WalletKey from "../WalletKey/WalletKey";
 import WalletPharse from "../WalletPhrase/WalletPhrase";
 import "./WalletItem.css";
@@ -33,6 +34,11 @@ function WalletItem() {
     //   isCopyable: true,
     // },
   ];
+
+  const handleChecked = (e: boolean) => {
+    console.log(e, "checked");
+  };
+
   return (
     <div className="wallet-item">
       <div className="wallet-item-header">
@@ -51,6 +57,10 @@ function WalletItem() {
         ))}
         <WalletPharse />
       </div>
+      <Conditions
+        value={"I Accept the terms and conditions "}
+        onChange={handleChecked}
+      />
     </div>
   );
 }

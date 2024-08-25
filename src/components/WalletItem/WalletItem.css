@@ -29,10 +29,3 @@
   gap: 0.8rem;
   padding-top: 10px;
 }
-
-.wallet-item:hover {
-  box-shadow: var(--primary-300) 0px 1px 1px, var(--primary-300) 0px 0px 1px 1px;
-
-  transform: scaleX(1.01);
-  transition: transform 0.2s ease-in-out;
-}
