@@ -1,0 +1,13 @@
+.conditions {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.25rem;
+}
+
+.conditions > p {
+  font-weight: 500;
+  color: var(--text-900);
+  text-wrap: wrap;
+  line-break: loose;
+}

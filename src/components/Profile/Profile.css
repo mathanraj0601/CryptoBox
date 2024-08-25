@@ -1,0 +1,16 @@
+.profile {
+  box-shadow: var(--text-900) 0px 1px 1px, var(--text-900) 0px 0px 1px 1px;
+  cursor: pointer;
+  padding: 0.3rem 0.25rem;
+  border-radius: 20%;
+  user-select: none;
+}
+
+.profile-text {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.profile:hover {
+  background-color: var(--primary-400);
+}
